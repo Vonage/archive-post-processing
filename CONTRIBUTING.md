@@ -3,19 +3,19 @@
 If you're interested in contributing to this project, here are a few ways to do so:
 
 - Bug fixes
-  - If you find a bug, please first report it using Github Issues.
+  - If you find a bug, please first report it using GitHub Issues.
   - Issues that have already been identified as a bug will be labelled `bug`.
   - If you'd like to submit a fix for a bug, send a Pull Request from your own fork and mention the Issue number.
     - Include a test that isolates the bug and verifies that it was fixed.
 - New Features
-  - If you'd like to add a feature to the library that doesn't already exist, feel free to describe the feature in a new Github Issue.
+  - If you'd like to add a feature to the library that doesn't already exist, feel free to describe the feature in a new GitHub Issue.
   - Issues that have been identified as a feature request will be labelled `enhancement`.
   - If you'd like to implement the new feature, please wait for feedback from the project maintainers before spending too much time writing the code. In some cases, `enhancement`s may not align well with the project objectives at the time.
 - Documentation & Miscellaneous
   - If you think the documentation could be clearer, or you have an alternative
     implementation of something that may have more advantages, we would love to hear it.
-    - If its a trivial change, go ahead and send a Pull Request with the changes you have in mind
-    - If not, open a Github Issue to discuss the idea first.
+    - If it's a trivial change, go ahead and send a Pull Request with the changes you have in mind
+    - If not, open a GitHub Issue to discuss the idea first.
 
 ## Requirements
 
@@ -34,5 +34,5 @@ If the contribution doesn't meet these criteria, a maintainer will discuss it wi
 6. Open a Pull Request from your new branch to the original fork's `main` branch.
 
 ## Development Guidelines
-1. For a brieft explanation of the algorithm [see README.md]
-2. Follow [how to execute the code guidelines](README.md file within the folder examples/archive-stitcher).
+1. For a brief explanation of the algorithm [see README.md]
+2. Follow [how to execute the code guidelines](examples/archive-stitcher/README.md).
