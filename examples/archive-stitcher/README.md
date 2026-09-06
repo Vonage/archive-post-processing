@@ -86,7 +86,7 @@ mkdir -p /tmp/output
 TEST_OUTPUT=/tmp/output python -m pytest test -vs -k test_merge_success_given_overlap
 ```
 
-> Look for `output.mp4` in a the most recent directory inside `/tmp/output`
+> Look for `output.mp4` in the most recent directory inside `/tmp/output`
 
 > Compare seconds 16-25 with [output_ref.mp4](test_data/screenshare_low_variation/output_ref.mp4)
 
@@ -103,7 +103,7 @@ The input media format we currently use is the following:
     - PTS timescale: 90000
 * Audio
     - codec: AAC LC
-    - sample rate: 48Khz
+    - sample rate: 48 kHz
     - channels: 1
 * Container
     - type: mp4
