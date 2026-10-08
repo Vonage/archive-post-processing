@@ -12,3 +12,11 @@ jobs:
   ai-adoption:
     uses: vonage-technology/api-ept-ai-forge/.github/workflows/ai-adoption-v2.yml@main
     secrets: inherit
+
+  require-ai-label:
+    needs: ai-adoption
+    uses: ./.github/workflows/ai-label-scan.yml
+    permissions:
+      contents: read
+      pull-requests: write
+      issues: write

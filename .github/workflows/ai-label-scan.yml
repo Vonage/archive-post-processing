@@ -1,8 +1,8 @@
 name: Require exactly one AI label on pull requests
 
+# Called by ai-adoption.yml once the adoption report has applied the label.
 on:
-  pull_request:
-    types: [opened, reopened, synchronize, labeled, unlabeled, edited]
+  workflow_call:
 
 permissions:
   contents: read
