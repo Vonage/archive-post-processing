@@ -1,0 +1,22 @@
+.github/workflows/ai-adoption.yml
+  s_60712d9c45b5fb::t_c0cdeab7446767 15-18
+  s_60712d9c45b5fb::t_27a908de9f45f5 19-22
+.github/workflows/ai-label-scan.yml
+  s_60712d9c45b5fb::t_bf1210947e84b9 3,5
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "f6a57a4ead74157c7be9dbeac5f137f7d7de9e5d",
+  "prompts": {},
+  "sessions": {
+    "s_60712d9c45b5fb": {
+      "agent_id": {
+        "tool": "opencode",
+        "id": "ses_ee3dd7a92ffetfnuoKa5qKVHBp",
+        "model": "claude-sonnet-5"
+      },
+      "human_author": "John G. O'Connell <john.oconnell@vonage.com>"
+    }
+  }
+}
